@@ -1,0 +1,4 @@
+Stack: #E | Input: 
+#
+Error: No production found for E with input '
+'

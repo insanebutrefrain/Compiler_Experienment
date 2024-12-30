@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Compiler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Compiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Compiler-Debug-10185653bb2d446c515a.json",
+					"name" : "Compiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp1_lexer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp1_lexer-Debug-d9ac92527bd5cb3e0558.json",
+					"name" : "exp1_lexer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp1_myLexer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp1_myLexer-Debug-a232f4660ae9ab64e8f5.json",
+					"name" : "exp1_myLexer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp2_grammar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp2_grammar-Debug-af7b0c737c5ada43238a.json",
+					"name" : "exp2_grammar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp2_myGrammar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp2_myGrammar-Debug-334ff4a066ebf2f71e41.json",
+					"name" : "exp2_myGrammar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp3_LL1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp3_LL1-Debug-f8203cd485298ec7eab1.json",
+					"name" : "exp3_LL1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp4_predictive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp4_predictive-Debug-29a4d5d63980cc71f880.json",
+					"name" : "exp4_predictive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp5_LR::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp5_LR-Debug-cb381ae84c296a60c931.json",
+					"name" : "exp5_LR",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp6_reversePolish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp6_reversePolish-Debug-f9547d5608e4774e090d.json",
+					"name" : "exp6_reversePolish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "operatorPrecedence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-operatorPrecedence-Debug-d2355a5d33a7f7e564a8.json",
+					"name" : "operatorPrecedence",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "P:/Clion/Compiler/cmake-build-debug",
+		"source" : "P:/Clion/Compiler"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

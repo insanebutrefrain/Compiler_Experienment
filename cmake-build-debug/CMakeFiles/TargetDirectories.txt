@@ -1,0 +1,12 @@
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp1_lexer.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp1_myLexer.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp2_grammar.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp2_myGrammar.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp3_LL1.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp4_predictive.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp5_LR.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/exp6_reversePolish.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/operatorPrecedence.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/edit_cache.dir
+P:/Clion/Compiler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+if x < 10 then // this is a comment
+    y = x + 1; // this is another comment
+else
+    y = x - 1;
+/*
+    this is a comment
+    that spans multiple lines
+*/
+while z > 0 do
+    z = z - 1;
+// this is a comment
+// this is a comment
+
+
+
+
+

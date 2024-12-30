@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/exp2_grammar/Grammar.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp2_grammar/GrammarMain.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp2_myGrammar/MyGrammar.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp2_myGrammar/MyGrammarMain.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exp2_myGrammar/g.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/exp4_preAnalytics/lab04.cpp" charset="UTF-8" />
+  </component>
+</project>

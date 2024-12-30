@@ -1,0 +1,206 @@
+10,--->,i, 
+步骤, 符号栈,输入串,备注
+0,#E,i#, 
+1,#AT,i#,E -> TA
+2,#ABF,i#,T -> FB
+3,#ABi,i#,F -> i
+4,#AB,#, 
+5,#A,#,B -> @
+6,#,#,A -> @
+ , , , 
+1+2,--->,i+i, 
+步骤, 符号栈,输入串,备注
+0,#E,i+i#, 
+1,#AT,i+i#,E -> TA
+2,#ABF,i+i#,T -> FB
+3,#ABi,i+i#,F -> i
+4,#AB,+i#, 
+5,#A,+i#,B -> @
+6,#AT+,+i#,A -> +TA
+7,#AT,i#, 
+8,#ABF,i#,T -> FB
+9,#ABi,i#,F -> i
+10,#AB,#, 
+11,#A,#,B -> @
+12,#,#,A -> @
+ , , , 
+(1+2)*3+(5+6*7),--->,(i+i)*i+(i+i*i), 
+步骤, 符号栈,输入串,备注
+0,#E,(i+i)*i+(i+i*i)#, 
+1,#AT,(i+i)*i+(i+i*i)#,E -> TA
+2,#ABF,(i+i)*i+(i+i*i)#,T -> FB
+3,#AB)E(,(i+i)*i+(i+i*i)#,F -> (E)
+4,#AB)E,i+i)*i+(i+i*i)#, 
+5,#AB)AT,i+i)*i+(i+i*i)#,E -> TA
+6,#AB)ABF,i+i)*i+(i+i*i)#,T -> FB
+7,#AB)ABi,i+i)*i+(i+i*i)#,F -> i
+8,#AB)AB,+i)*i+(i+i*i)#, 
+9,#AB)A,+i)*i+(i+i*i)#,B -> @
+10,#AB)AT+,+i)*i+(i+i*i)#,A -> +TA
+11,#AB)AT,i)*i+(i+i*i)#, 
+12,#AB)ABF,i)*i+(i+i*i)#,T -> FB
+13,#AB)ABi,i)*i+(i+i*i)#,F -> i
+14,#AB)AB,)*i+(i+i*i)#, 
+15,#AB)A,)*i+(i+i*i)#,B -> @
+16,#AB),)*i+(i+i*i)#,A -> @
+17,#AB,*i+(i+i*i)#, 
+18,#ABF*,*i+(i+i*i)#,B -> *FB
+19,#ABF,i+(i+i*i)#, 
+20,#ABi,i+(i+i*i)#,F -> i
+21,#AB,+(i+i*i)#, 
+22,#A,+(i+i*i)#,B -> @
+23,#AT+,+(i+i*i)#,A -> +TA
+24,#AT,(i+i*i)#, 
+25,#ABF,(i+i*i)#,T -> FB
+26,#AB)E(,(i+i*i)#,F -> (E)
+27,#AB)E,i+i*i)#, 
+28,#AB)AT,i+i*i)#,E -> TA
+29,#AB)ABF,i+i*i)#,T -> FB
+30,#AB)ABi,i+i*i)#,F -> i
+31,#AB)AB,+i*i)#, 
+32,#AB)A,+i*i)#,B -> @
+33,#AB)AT+,+i*i)#,A -> +TA
+34,#AB)AT,i*i)#, 
+35,#AB)ABF,i*i)#,T -> FB
+36,#AB)ABi,i*i)#,F -> i
+37,#AB)AB,*i)#, 
+38,#AB)ABF*,*i)#,B -> *FB
+39,#AB)ABF,i)#, 
+40,#AB)ABi,i)#,F -> i
+41,#AB)AB,)#, 
+42,#AB)A,)#,B -> @
+43,#AB),)#,A -> @
+44,#AB,#, 
+45,#A,#,B -> @
+46,#,#,A -> @
+ , , , 
+((1+2)*3+4,--->,((i+i)*i+i, 
+步骤, 符号栈,输入串,备注
+0,#E,((i+i)*i+i#, 
+1,#AT,((i+i)*i+i#,E -> TA
+2,#ABF,((i+i)*i+i#,T -> FB
+3,#AB)E(,((i+i)*i+i#,F -> (E)
+4,#AB)E,(i+i)*i+i#, 
+5,#AB)AT,(i+i)*i+i#,E -> TA
+6,#AB)ABF,(i+i)*i+i#,T -> FB
+7,#AB)AB)E(,(i+i)*i+i#,F -> (E)
+8,#AB)AB)E,i+i)*i+i#, 
+9,#AB)AB)AT,i+i)*i+i#,E -> TA
+10,#AB)AB)ABF,i+i)*i+i#,T -> FB
+11,#AB)AB)ABi,i+i)*i+i#,F -> i
+12,#AB)AB)AB,+i)*i+i#, 
+13,#AB)AB)A,+i)*i+i#,B -> @
+14,#AB)AB)AT+,+i)*i+i#,A -> +TA
+15,#AB)AB)AT,i)*i+i#, 
+16,#AB)AB)ABF,i)*i+i#,T -> FB
+17,#AB)AB)ABi,i)*i+i#,F -> i
+18,#AB)AB)AB,)*i+i#, 
+19,#AB)AB)A,)*i+i#,B -> @
+20,#AB)AB),)*i+i#,A -> @
+21,#AB)AB,*i+i#, 
+22,#AB)ABF*,*i+i#,B -> *FB
+23,#AB)ABF,i+i#, 
+24,#AB)ABi,i+i#,F -> i
+25,#AB)AB,+i#, 
+26,#AB)A,+i#,B -> @
+27,#AB)AT+,+i#,A -> +TA
+28,#AB)AT,i#, 
+29,#AB)ABF,i#,T -> FB
+30,#AB)ABi,i#,F -> i
+31,#AB)AB,#, 
+32,#AB)A,#,B -> @
+33,#AB),#,A -> @
+ , , , 
+1+2+3+(*4+5),--->,i+i+i+(*i+i), 
+步骤, 符号栈,输入串,备注
+0,#E,i+i+i+(*i+i)#, 
+1,#AT,i+i+i+(*i+i)#,E -> TA
+2,#ABF,i+i+i+(*i+i)#,T -> FB
+3,#ABi,i+i+i+(*i+i)#,F -> i
+4,#AB,+i+i+(*i+i)#, 
+5,#A,+i+i+(*i+i)#,B -> @
+6,#AT+,+i+i+(*i+i)#,A -> +TA
+7,#AT,i+i+(*i+i)#, 
+8,#ABF,i+i+(*i+i)#,T -> FB
+9,#ABi,i+i+(*i+i)#,F -> i
+10,#AB,+i+(*i+i)#, 
+11,#A,+i+(*i+i)#,B -> @
+12,#AT+,+i+(*i+i)#,A -> +TA
+13,#AT,i+(*i+i)#, 
+14,#ABF,i+(*i+i)#,T -> FB
+15,#ABi,i+(*i+i)#,F -> i
+16,#AB,+(*i+i)#, 
+17,#A,+(*i+i)#,B -> @
+18,#AT+,+(*i+i)#,A -> +TA
+19,#AT,(*i+i)#, 
+20,#ABF,(*i+i)#,T -> FB
+21,#AB)E(,(*i+i)#,F -> (E)
+22,#AB)E,*i+i)#, 
+ , , , 
+(a+b)*(c+d),--->,(i+i)*(i+i), 
+步骤, 符号栈,输入串,备注
+0,#E,(i+i)*(i+i)#, 
+1,#AT,(i+i)*(i+i)#,E -> TA
+2,#ABF,(i+i)*(i+i)#,T -> FB
+3,#AB)E(,(i+i)*(i+i)#,F -> (E)
+4,#AB)E,i+i)*(i+i)#, 
+5,#AB)AT,i+i)*(i+i)#,E -> TA
+6,#AB)ABF,i+i)*(i+i)#,T -> FB
+7,#AB)ABi,i+i)*(i+i)#,F -> i
+8,#AB)AB,+i)*(i+i)#, 
+9,#AB)A,+i)*(i+i)#,B -> @
+10,#AB)AT+,+i)*(i+i)#,A -> +TA
+11,#AB)AT,i)*(i+i)#, 
+12,#AB)ABF,i)*(i+i)#,T -> FB
+13,#AB)ABi,i)*(i+i)#,F -> i
+14,#AB)AB,)*(i+i)#, 
+15,#AB)A,)*(i+i)#,B -> @
+16,#AB),)*(i+i)#,A -> @
+17,#AB,*(i+i)#, 
+18,#ABF*,*(i+i)#,B -> *FB
+19,#ABF,(i+i)#, 
+20,#AB)E(,(i+i)#,F -> (E)
+21,#AB)E,i+i)#, 
+22,#AB)AT,i+i)#,E -> TA
+23,#AB)ABF,i+i)#,T -> FB
+24,#AB)ABi,i+i)#,F -> i
+25,#AB)AB,+i)#, 
+26,#AB)A,+i)#,B -> @
+27,#AB)AT+,+i)#,A -> +TA
+28,#AB)AT,i)#, 
+29,#AB)ABF,i)#,T -> FB
+30,#AB)ABi,i)#,F -> i
+31,#AB)AB,)#, 
+32,#AB)A,)#,B -> @
+33,#AB),)#,A -> @
+34,#AB,#, 
+35,#A,#,B -> @
+36,#,#,A -> @
+ , , , 
+((ab3+de4)**5)+1,--->,((i+i)**i)+i, 
+步骤, 符号栈,输入串,备注
+0,#E,((i+i)**i)+i#, 
+1,#AT,((i+i)**i)+i#,E -> TA
+2,#ABF,((i+i)**i)+i#,T -> FB
+3,#AB)E(,((i+i)**i)+i#,F -> (E)
+4,#AB)E,(i+i)**i)+i#, 
+5,#AB)AT,(i+i)**i)+i#,E -> TA
+6,#AB)ABF,(i+i)**i)+i#,T -> FB
+7,#AB)AB)E(,(i+i)**i)+i#,F -> (E)
+8,#AB)AB)E,i+i)**i)+i#, 
+9,#AB)AB)AT,i+i)**i)+i#,E -> TA
+10,#AB)AB)ABF,i+i)**i)+i#,T -> FB
+11,#AB)AB)ABi,i+i)**i)+i#,F -> i
+12,#AB)AB)AB,+i)**i)+i#, 
+13,#AB)AB)A,+i)**i)+i#,B -> @
+14,#AB)AB)AT+,+i)**i)+i#,A -> +TA
+15,#AB)AB)AT,i)**i)+i#, 
+16,#AB)AB)ABF,i)**i)+i#,T -> FB
+17,#AB)AB)ABi,i)**i)+i#,F -> i
+18,#AB)AB)AB,)**i)+i#, 
+19,#AB)AB)A,)**i)+i#,B -> @
+20,#AB)AB),)**i)+i#,A -> @
+21,#AB)AB,**i)+i#, 
+22,#AB)ABF*,**i)+i#,B -> *FB
+23,#AB)ABF,*i)+i#, 
+ , , , 
