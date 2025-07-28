@@ -104,7 +104,7 @@ public:
         return firstSet;
     }
 
-    //答应预测分析表到文件中
+    //打印预测分析表到文件中
     void writeParseTableToFile(
             const string &filename = "P:\\Clion\\Compiler\\exp4_preAnalytics\\file\\predictive_table.csv") {
         ofstream outFile(filename);

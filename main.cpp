@@ -1,11 +1,12 @@
-#include <iostream>
-#include <vector>
-#include <iostream>
-#include <fstream>
-
-using namespace std;
+#include "Grammar.h"
 
 int main() {
-    cout << ("a" == "a") << endl;
+    Grammar grammar;
+    // 从文件中读入文法
+    string filename = "P:\\Clion\\Compiler\\exp2_grammar\\g.txt"; // 请确保文件路径正确
+    grammar.readFromFile(filename);
+    // 输出文法
+    grammar.printGrammar();
+
     return 0;
 }

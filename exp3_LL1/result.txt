@@ -1,2 +1,6 @@
-R -> aA;
-A -> b | c;
+S -> Qc | cB;
+B -> @ | ab;
+Q -> Rb | b;
+R -> bcaA | caC | aA;
+C -> A | baA;
+A -> bcaA | @;

@@ -10,6 +10,7 @@ int main() {
     lr.createItemSets();
     lr.constructSLRTable();
     lr.writeSLRTable();
+    cout << endl;
     lr.testAllExpressions();
     return 0;
 }

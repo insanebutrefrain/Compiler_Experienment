@@ -60,7 +60,7 @@ public:
  * 读取文法文件
  * @param fileName
  */
-    void readGrammarFromFile(string fileName = "P:\\Clion\\Compiler\\exp5_LR\\file\\g.txt") {
+    void readGrammarFromFile(string fileName = "P:\\Clion\\Compiler\\exp6_reversePolish\\file\\g.txt") {
         ifstream infile(fileName);
         if (!infile.is_open()) {
             cerr << "无法打开文件: " << fileName << endl;
@@ -308,7 +308,7 @@ public:
     }
 
     // 将SLR分析表写入文件
-    void writeSLRTable(string path = "P:\\Clion\\Compiler\\exp5_LR\\file\\LR_Table.csv") {
+    void writeSLRTable(string path = "P:\\Clion\\Compiler\\exp6_reversePolish\\file\\LR_Table.csv") {
         ofstream file(path);
         if (!file.is_open()) {
             cerr << "Failed to open file: " << path << endl;
@@ -546,7 +546,7 @@ public:
             cout << expression << endl;
             // 过程
             processStream << originalExpression << ",--->," << expression << ", , " << endl;
-            processStream << "步骤,状态栈,符号栈,输入串,备注," << endl;
+            processStream << "步骤,状态栈,符号栈,输入串,备注" << endl;
             // 获取语法分析树的同时记录过程
             Node *root = testSingleExpression(expressionVector, processStream);
             // 换行
